@@ -76,8 +76,68 @@ body {
     text-decoration: none;
 
     transition: color 0.3s linear;
+    transition: 0.3s;
 }
 
 .btn:hover {
     color: #000;
+    border-radius: 20px;
+}
+/* ======== */
+.header-down {
+    position: relative;
+}
+.header__title {
+    position: absolute;
+    left: 0;
+    text-align: center;
+    margin-top: 222px;
+    color: #FF7400;
+    font-family: "Tinos", serif;
+    font-size: 50px;
+    font-weight: 400;
+}
+.header__subtitle {
+    font-size: 80px;
+    margin-bottom: 12px;
+}
+.header__sub{
+    font-size: 18px;
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    color: #fff;
+}
+.header__sub:after {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 172px;
+    left: 83px;
+}
+.header__sub::before {
+    position: absolute;
+    content: '';
+    height: 2px;
+    width: 61px;
+    background-color: #fff;
+    top: 172px;
+    right: 83px;
+}
+
+.header-button{
+    color: #fff;
+    background-color: #FF7400;
+    padding: 14px 28px;
+    text-decoration: none;
+    font-size: 15px;
+    font-weight: 700;
+
+    transition: color 0.3s linear;
+    transition: 0.3s;
+}
+.header-button:hover {
+    color: #000;
+    border-radius: 20px;
 }
