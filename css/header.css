@@ -5,7 +5,9 @@ body {
 }
 
 .container {
-    margin: 0px 166px;
+    max-width: 1138px;
+    width: 100%;
+    margin: 0 auto;
 }
 .header {
     background-image: url(/img/bg.jpg);
@@ -19,9 +21,7 @@ body {
     align-items: center;
     justify-content: space-around;
 }
-/* .nav{
-    margin-left: 260px;
-} */
+
 .nav_item{
     color: #fff;
     text-decoration: none;
@@ -140,4 +140,115 @@ body {
 .header-button:hover {
     color: #000;
     border-radius: 20px;
+}
+
+
+/* ============================================= */
+.cards__holder {
+    display: flex;
+    justify-content: center;
+}
+
+.card{
+    width: 348px;
+    height: 328px;
+    text-align: center;
+    box-shadow: 10px 10px 40px 20px #0000001A;
+    font-size: 26px;
+    font-family: "Tinos", sans-serif;
+    margin-right: 30px;
+    background-color: #fff;
+    margin-top: -80px;
+    padding: 0 15px;
+}
+.card__image {
+    margin-bottom: 4px;
+    margin-top: 42px;
+}
+.card__title{
+    margin-bottom: 20px;
+    color: #2C2C2C;
+    font-weight: 400;
+}
+.card__title span {
+    color: #BC9060;
+}
+.card__desc {
+    color: #656363;
+}
+
+/* ========================================== */
+.hostory {
+    margin-top: 165px;
+}
+
+.history__title {
+    font-family: "Tinos", sans-serif;
+    font-size: 54px;
+    font-weight: 400;
+    margin-bottom: 21px;
+}
+.history__title span {
+    color: #D67E35;
+}
+.history__desc {
+    font-family: "Open Sans", sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+    color: #656363;
+}
+.histoty__info{
+    text-align: center;
+    width: 444px;
+    margin-right: 185px;
+}
+
+.history__nubber {
+    display: flex;
+    text-align: center;
+    width: 444px;
+    justify-content: center;
+    margin-top: 39px;
+}
+
+.history__item {
+    color: #BC9060;
+    margin-right: 60px;
+    font-size: 40px;
+}
+.history__item span {
+    display: block;
+    color: #000;
+    font-size: 20px;
+}
+
+.history__holder {
+    display: flex;
+}
+.history__images {
+    position: relative;
+}
+.history__img-1 {
+    position: absolute;
+    z-index: 0;
+    top: 138px;
+    left: 211px;
+}
+.history__img-2 {
+    position: absolute;
+    z-index: 777;
+    top: 7px;
+    left: 55px;
+}
+.history__img-3 {
+        position: absolute;
+        z-index: 999;
+        top: -28px;
+        left: -83px;
+}
+.history__img-4 {
+    position: absolute;
+    z-index: 0;
+    top: 7px;
+    left: 141px;
 }
