@@ -424,3 +424,88 @@ body {
     bottom: 42px;
     right: 76px;
 }
+
+/* ================================ */
+.coment {
+    background-color: #E5E5E5;
+}
+.coment__container{
+    padding-top: 104px;
+    text-align: center;
+}
+.coment__text {
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    font-style: italic;
+    margin-bottom: 20px;
+    font-weight: 400;
+}
+.coment__image{
+    margin-bottom: 16px;
+}
+.coment__type{
+    font-weight: 600;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    margin-bottom: 9px;
+}
+.coment__name{
+    font-weight: 400;
+    font-family: "Open Sans", sans-serif;
+    font-size: 20px;
+    padding-bottom: 149px;
+}
+
+/* ========================================= */
+.galery__title{
+    font-family: "Tinos", sans-serif;
+    font-size: 54px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.galery__title span{
+    color: #D67E34;
+}
+.galery__content{
+    display: flex;
+    justify-content: center;
+}
+.galery__down,
+.galery__up{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.galery__left{
+    margin-right: 20px;
+}
+
+/* ================================== */
+.chefs__title {
+    font-family: "Tinos", sans-serif;
+    font-size: 54px;
+    text-align: center;
+    font-weight: 400;
+    padding-top: 100px;
+    padding-bottom: 60px;
+}
+.chefs__title span{
+    color: #D67E34;
+}
+.chefs__image{
+    display: flex;
+    justify-content: center;
+}
+.chefs__image img{
+    margin-right: 30px;
+    padding-bottom: 100px;
+}
+
+.footer{
+    padding: 50px 0;
+    text-align: center;
+    background-color: #000;
+    color: #fff;
+}
